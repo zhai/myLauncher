@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">手机热点设置</string>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="tethering_on">点击打开WiFi 热点.</string>
+    <string name="tethering_off">点击关闭WiFi 热点.</string>
+    <string name="failed_on">打开热点失败!</string>
+    <string name="failed_off">关闭热点失败!</string>
+    <string name="message">信息</string>
+    <string name="ssid_name_label">热点SSID: </string>
+    <string name="security_name_label">安全加密: </string>
+    <string name="password_label">密码: </string>
+    <string name="password_hint">最少8个字符</string>
+    <string name="save_button">保存</string>
+    <string name="show_password">显示 密码</string>
+</resources>
