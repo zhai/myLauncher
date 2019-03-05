@@ -8,7 +8,7 @@ if (localPropsFile.exists()) {
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 27
     buildToolsVersion '28.0.3'
 
     signingConfigs {
@@ -23,7 +23,7 @@ android {
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 27
         applicationId "com.zhaisoft.app.mylauncher"
 
         multiDexEnabled true

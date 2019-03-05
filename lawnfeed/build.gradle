@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 27
     buildToolsVersion '28.0.3'
 
     signingConfigs {
@@ -16,7 +16,7 @@ android {
     defaultConfig {
         applicationId "com.zhaisoft.app.mylauncher.lawnfeed"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 27
 
         if (System.getenv("TRAVIS") == "true") {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
