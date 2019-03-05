@@ -1,4 +1,4 @@
-package com.zhaisoft.mylauncher.launcherclient
+package com.zhaisoft.app.mylauncher.launcherclient
 
 import android.os.Parcel
 import android.os.Parcelable

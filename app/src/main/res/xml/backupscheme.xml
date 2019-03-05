@@ -6,6 +6,6 @@
         path="launcher.db" />
     <include
         domain="sharedpref"
-        path="com.zhaisoft.mylauncher.prefs.xml" />
+        path="com.zhaisoft.app.mylauncher.prefs.xml" />
 
 </full-backup-content>

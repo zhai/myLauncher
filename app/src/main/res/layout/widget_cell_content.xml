@@ -36,7 +36,7 @@
             android:textSize="14.0sp" />
     </LinearLayout>
 
-    <com.zhaisoft.mylauncher.widget.WidgetImageView
+    <com.zhaisoft.app.mylauncher.widget.WidgetImageView
         android:id="@+id/widget_preview"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

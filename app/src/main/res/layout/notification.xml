@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.zhaisoft.mylauncher.notification.NotificationItemView
+<com.zhaisoft.app.mylauncher.notification.NotificationItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="@dimen/bg_popup_item_width"
     android:layout_height="wrap_content"
@@ -90,4 +90,4 @@
 
     </RelativeLayout>
 
-</com.zhaisoft.mylauncher.notification.NotificationItemView>
+</com.zhaisoft.app.mylauncher.notification.NotificationItemView>

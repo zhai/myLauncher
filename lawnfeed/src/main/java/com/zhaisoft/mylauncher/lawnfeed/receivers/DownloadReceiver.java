@@ -1,4 +1,4 @@
-package com.zhaisoft.mylauncher.lawnfeed.receivers;
+package com.zhaisoft.app.mylauncher.lawnfeed.receivers;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -8,7 +8,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.widget.Toast;
 
-import com.zhaisoft.mylauncher.lawnfeed.R;
+import com.zhaisoft.app.mylauncher.lawnfeed.R;
 
 public abstract class DownloadReceiver extends BroadcastReceiver {
     public String mFilename;

@@ -3,31 +3,31 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.zhaisoft.mylauncher.settings.ui.SubPreference
+    <com.zhaisoft.app.mylauncher.settings.ui.SubPreference
         android:title="@string/pixel_ui_pref_title"
         android:summary="@string/pixel_ui_pref_summary"
         android:icon="@drawable/ic_ui"
         app:content="@xml/launcher_theme_preferences" />
 
-    <com.zhaisoft.mylauncher.settings.ui.SubPreference
+    <com.zhaisoft.app.mylauncher.settings.ui.SubPreference
         android:icon="@drawable/ic_desktop"
         android:summary="@string/general_pref_summary"
         android:title="@string/general_pref_title"
         app:content="@xml/launcher_desktop_preferences" />
 
-    <com.zhaisoft.mylauncher.settings.ui.SubPreference
+    <com.zhaisoft.app.mylauncher.settings.ui.SubPreference
         android:icon="@drawable/ic_dock"
         android:summary="@string/dock_pref_summary"
         android:title="@string/dock_pref_title"
         app:content="@xml/launcher_dock_preferences" />
 
-    <com.zhaisoft.mylauncher.settings.ui.SubPreference
+    <com.zhaisoft.app.mylauncher.settings.ui.SubPreference
         android:icon="@drawable/ic_app_drawer"
         android:summary="@string/app_drawer_pref_summary"
         android:title="@string/app_drawer_pref_title"
         app:content="@xml/launcher_app_drawer_preferences" />
 
-    <com.zhaisoft.mylauncher.settings.ui.SubPreference
+    <com.zhaisoft.app.mylauncher.settings.ui.SubPreference
         android:title="@string/behavior_pref_title"
         android:summary="@string/behavior_pref_summary"
         android:icon="@drawable/ic_behavior"
@@ -41,10 +41,10 @@
 
         <intent
             android:targetPackage="@string/application_id"
-            android:targetClass="com.zhaisoft.mylauncher.backup.BackupListActivity"/>
+            android:targetClass="com.zhaisoft.app.mylauncher.backup.BackupListActivity"/>
     </Preference>
 
-    <com.zhaisoft.mylauncher.settings.ui.SubPreference
+    <com.zhaisoft.app.mylauncher.settings.ui.SubPreference
         android:title="@string/debug_pref_title"
         android:summary="@string/debug_pref_summary"
         android:icon="@drawable/ic_debug"

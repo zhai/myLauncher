@@ -6,7 +6,7 @@
         android:key="prefCat_homeScreen"
         android:title="@string/pref_category_icons">
 
-        <com.zhaisoft.mylauncher.preferences.IconPackPreference
+        <com.zhaisoft.app.mylauncher.preferences.IconPackPreference
             android:key="pref_iconPackPackage"
             android:persistent="true"
             android:summary="@string/icon_pack_preference_summary"
@@ -61,7 +61,7 @@
             android:summary="%s"
             android:title="@string/theme_pref_title" />
 
-        <com.zhaisoft.mylauncher.preferences.BitSetPreference
+        <com.zhaisoft.app.mylauncher.preferences.BitSetPreference
             android:entries="@array/themeModeTexts"
             android:entryValues="@array/themeModeValues"
             android:key="pref_themeMode"
@@ -74,14 +74,14 @@
             android:summary="@string/blur_pref_summary"
             android:title="@string/blur_pref_title" />
 
-        <com.zhaisoft.mylauncher.preferences.BitSetPreference
+        <com.zhaisoft.app.mylauncher.preferences.BitSetPreference
             android:dependency="pref_enableBlur"
             android:entries="@array/blurModeTexts"
             android:entryValues="@array/blurModeValues"
             android:key="pref_blurMode"
             android:title="@string/pref_applyBlur" />
 
-        <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+        <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
             android:dependency="pref_enableBlur"
             android:key="pref_blurRadius"
             android:persistent="true"
@@ -111,14 +111,14 @@
             android:title="@string/pref_weather_units" />
 
 
-        <com.zhaisoft.mylauncher.preferences.CustomLocationPreference
+        <com.zhaisoft.app.mylauncher.preferences.CustomLocationPreference
             android:defaultValue="Lucerne, CH"
             android:dependency="pref_weather"
             android:key="pref_weather_city"
             android:summary="@string/pref_weather_city_summary"
             android:title="@string/pref_weather_city_title" />
 
-        <com.zhaisoft.mylauncher.preferences.ApiKeyPreference
+        <com.zhaisoft.app.mylauncher.preferences.ApiKeyPreference
             android:defaultValue="17a6438b1d63d5b05f7039e7cb52cde7"
             android:dependency="pref_weather"
             android:key="pref_weatherApiKey"

@@ -1,4 +1,4 @@
-package com.zhaisoft.mylauncher.lawnfeed.updater;
+package com.zhaisoft.app.mylauncher.lawnfeed.updater;
 
 import android.app.Activity;
 import android.app.NotificationChannel;
@@ -23,8 +23,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import com.zhaisoft.mylauncher.lawnfeed.receivers.UpdateReceiver;
-import com.zhaisoft.mylauncher.lawnfeed.R;
+import com.zhaisoft.app.mylauncher.lawnfeed.receivers.UpdateReceiver;
+import com.zhaisoft.app.mylauncher.lawnfeed.R;
 
 public class Updater {
     public static final String VERSION_URL = "https://storage.codebucket.de/lawnchair/version.json";

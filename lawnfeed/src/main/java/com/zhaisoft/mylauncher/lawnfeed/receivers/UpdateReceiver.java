@@ -1,4 +1,4 @@
-package com.zhaisoft.mylauncher.lawnfeed.receivers;
+package com.zhaisoft.app.mylauncher.lawnfeed.receivers;
 
 import android.Manifest;
 import android.app.DownloadManager;
@@ -15,9 +15,9 @@ import android.widget.Toast;
 
 import java.io.File;
 
-import com.zhaisoft.mylauncher.lawnfeed.PermissionActivity;
-import com.zhaisoft.mylauncher.lawnfeed.PermissionActivity.*;
-import com.zhaisoft.mylauncher.lawnfeed.R;
+import com.zhaisoft.app.mylauncher.lawnfeed.PermissionActivity;
+import com.zhaisoft.app.mylauncher.lawnfeed.PermissionActivity.*;
+import com.zhaisoft.app.mylauncher.lawnfeed.R;
 
 public class UpdateReceiver extends BroadcastReceiver {
     @Override

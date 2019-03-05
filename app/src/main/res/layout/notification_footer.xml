@@ -15,7 +15,7 @@
 -->
 
 
-<com.zhaisoft.mylauncher.notification.NotificationFooterLayout
+<com.zhaisoft.app.mylauncher.notification.NotificationFooterLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -42,4 +42,4 @@
         android:layout_marginStart="@dimen/horizontal_ellipsis_offset"
         android:layout_gravity="start|center_vertical" />
 
-</com.zhaisoft.mylauncher.notification.NotificationFooterLayout>
+</com.zhaisoft.app.mylauncher.notification.NotificationFooterLayout>

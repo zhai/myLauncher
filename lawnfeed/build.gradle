@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.zhaisoft.mylauncher.lawnfeed"
+        applicationId "com.zhaisoft.app.mylauncher.lawnfeed"
         minSdkVersion 21
         targetSdkVersion 27
 

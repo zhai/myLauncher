@@ -17,7 +17,7 @@
 */
 -->
 
-<com.zhaisoft.wallpaperpicker.AlphaDisableableButton xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.wallpaperpicker.AlphaDisableableButton xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ActionBarSetWallpaperStyle"
     android:id="@+id/set_wallpaper_button"
     android:layout_width="match_parent"

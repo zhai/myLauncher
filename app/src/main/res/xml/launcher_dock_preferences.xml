@@ -6,7 +6,7 @@
             android:key="prefCat_dockOptions"
             android:title="@string/dock_pref_title">
             
-            <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+            <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
                 android:key="pref_hotseatHeightScale"
                 android:title="@string/hotseat_height_scale"
                 app:minValue="0.5"
@@ -27,7 +27,7 @@
                 android:defaultValue="false"
                 android:persistent="true" />
 
-            <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+            <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
                 android:key="pref_hotseatCustomOpacity"
                 android:title="@string/hotseat_custom_opacity"
                 android:dependency="pref_hotseatShouldUseCustomOpacity"
@@ -64,7 +64,7 @@
                 android:summary="%s"
                 android:persistent="true" />
 
-            <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+            <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
                 android:key="pref_hotseatIconScale"
                 android:title="@string/icon_scale_pref_title"
                 app:minValue="0.3"

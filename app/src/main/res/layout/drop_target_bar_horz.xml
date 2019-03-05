@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.zhaisoft.mylauncher.DropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.DropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/dynamic_grid_drop_target_size"
@@ -27,7 +27,7 @@
 
         <!-- Delete target -->
 
-        <com.zhaisoft.mylauncher.DeleteDropTarget
+        <com.zhaisoft.app.mylauncher.DeleteDropTarget
             launcher:hideParentOnDisable="true"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -45,7 +45,7 @@
 
         <!-- App Info -->
 
-        <com.zhaisoft.mylauncher.InfoDropTarget
+        <com.zhaisoft.app.mylauncher.InfoDropTarget
             launcher:hideParentOnDisable="true"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -63,7 +63,7 @@
 
         <!-- Uninstall target -->
 
-        <com.zhaisoft.mylauncher.UninstallDropTarget
+        <com.zhaisoft.app.mylauncher.UninstallDropTarget
             launcher:hideParentOnDisable="true"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -74,4 +74,4 @@
             android:text="@string/uninstall_drop_target_label" />
     </FrameLayout>
 
-</com.zhaisoft.mylauncher.DropTargetBar>
+</com.zhaisoft.app.mylauncher.DropTargetBar>

@@ -39,7 +39,7 @@
                 android:title="@string/use_round_searhbar"
                 android:persistent="true" />
         
-            <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+            <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
                 android:key="pref_allAppsOpacitySB"
                 android:title="@string/all_apps_opacity_pref_title"
                 app:minValue="0"
@@ -74,7 +74,7 @@
                 app:chromaIndicatorMode="HEX"
                 app:chromaInitialColor="@color/quantum_panel_text_color"/>
 
-            <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+            <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
                 android:key="pref_allAppsIconScale"
                 android:title="@string/icon_scale_pref_title"
                 app:minValue="0.3"
@@ -85,7 +85,7 @@
                 app:steps="120"
                 android:persistent="true" />
 
-            <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+            <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
                 android:key="pref_allAppsIconTextScale"
                 android:title="@string/icon_text_scale_pref_title"
                 app:minValue="0.3"
@@ -96,7 +96,7 @@
                 app:steps="120"
                 android:persistent="true" />
 
-            <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+            <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
                 android:key="pref_allAppsIconPaddingScale"
                 android:title="@string/icon_text_padding_scale_pref_title"
                 app:minValue="0.1"
@@ -123,7 +123,7 @@
                 android:key="pref_hiddenApps"
                 android:title="@string/hide_app"
                 android:summary="@string/hide_app_sum"
-                android:fragment="com.zhaisoft.mylauncher.preferences.HiddenAppsFragment" />
+                android:fragment="com.zhaisoft.app.mylauncher.preferences.HiddenAppsFragment" />
         
             <SwitchPreference
                 android:key="pref_enablePhysics"

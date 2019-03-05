@@ -2,7 +2,7 @@
 <about>
     <appInfo
         icon="@mipmap/ic_launcher"
-        playStoreUrl="https://play.google.com/store/apps/details?id=com.zhaisoft.mylauncher.plah"
+        playStoreUrl="https://play.google.com/store/apps/details?id=com.zhaisoft.app.mylauncher.plah"
         repo="LawnchairLauncher/Lawnchair"
         websiteUrl="https://lawnchair.info">
         <link

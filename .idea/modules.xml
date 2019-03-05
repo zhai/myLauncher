@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hotspot/hotspot.iml" filepath="$PROJECT_DIR$/hotspot/hotspot.iml" />
       <module fileurl="file://$PROJECT_DIR$/launcherclient/launcherclient.iml" filepath="$PROJECT_DIR$/launcherclient/launcherclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/lawnfeed/lawnfeed.iml" filepath="$PROJECT_DIR$/lawnfeed/lawnfeed.iml" />
       <module fileurl="file://$PROJECT_DIR$/myLauncher.iml" filepath="$PROJECT_DIR$/myLauncher.iml" />

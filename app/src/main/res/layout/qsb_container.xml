@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.zhaisoft.mylauncher.pixelify.SuperGContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.pixelify.SuperGContainerView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="0.0dip"
     android:layout_marginStart="@dimen/qsb_overlap_margin"

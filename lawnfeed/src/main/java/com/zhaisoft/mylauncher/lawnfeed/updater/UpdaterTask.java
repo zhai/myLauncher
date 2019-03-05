@@ -1,4 +1,4 @@
-package com.zhaisoft.mylauncher.lawnfeed.updater;
+package com.zhaisoft.app.mylauncher.lawnfeed.updater;
 
 import android.content.Context;
 import android.os.AsyncTask;

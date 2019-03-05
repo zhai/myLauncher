@@ -1,10 +1,10 @@
-package com.zhaisoft.mylauncher.launcherclient
+package com.zhaisoft.app.mylauncher.launcherclient
 
 import android.content.Context
 
 class LauncherClientProxyConnection(
         private val context: Context,
-        private val proxyPackage: String = "com.zhaisoft.mylauncher.launcherclientproxy",
+        private val proxyPackage: String = "com.zhaisoft.app.mylauncher.launcherclientproxy",
         private val overlayEnabled: Boolean) {
 
 

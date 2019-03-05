@@ -1,8 +1,8 @@
-package com.zhaisoft.mylauncher.launcherclient;
+package com.zhaisoft.app.mylauncher.launcherclient;
 
 import android.os.Bundle;
-import com.zhaisoft.mylauncher.launcherclient.WindowLayoutParams;
-import com.zhaisoft.mylauncher.launcherclient.ILauncherClientProxyCallback;
+import com.zhaisoft.app.mylauncher.launcherclient.WindowLayoutParams;
+import com.zhaisoft.app.mylauncher.launcherclient.ILauncherClientProxyCallback;
 
 interface ILauncherClientProxy {
 

@@ -14,14 +14,14 @@
 -->
 
 <!-- Full screen view projects under the status bar and contains the background -->
-<com.zhaisoft.mylauncher.LauncherRootView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.LauncherRootView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:id="@+id/launcher"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <com.zhaisoft.mylauncher.dragndrop.DragLayer
+    <com.zhaisoft.app.mylauncher.dragndrop.DragLayer
         android:id="@+id/drag_layer"
         android:clipChildren="false"
         android:clipToPadding="false"
@@ -32,7 +32,7 @@
 
         <!-- The workspace contains 5 screens of cells -->
         <!-- DO NOT CHANGE THE ID -->
-        <com.zhaisoft.mylauncher.Workspace
+        <com.zhaisoft.app.mylauncher.Workspace
             android:id="@+id/workspace"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -57,7 +57,7 @@
             android:id="@+id/overview_panel"
             android:visibility="gone" />
 
-        <com.zhaisoft.mylauncher.pageindicators.PageIndicatorCaretLandscape
+        <com.zhaisoft.app.mylauncher.pageindicators.PageIndicatorCaretLandscape
             android:id="@+id/page_indicator"
             android:layout_width="@dimen/dynamic_grid_page_indicator_height"
             android:layout_height="@dimen/dynamic_grid_page_indicator_height"
@@ -87,6 +87,6 @@
             android:layout_height="match_parent"
             android:visibility="invisible" />
 
-    </com.zhaisoft.mylauncher.dragndrop.DragLayer>
+    </com.zhaisoft.app.mylauncher.dragndrop.DragLayer>
 
-</com.zhaisoft.mylauncher.LauncherRootView>
+</com.zhaisoft.app.mylauncher.LauncherRootView>

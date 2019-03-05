@@ -86,7 +86,7 @@
             android:summary="%s"
             android:title="@string/num_rows_pref_title" />
 
-        <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+        <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
             android:key="pref_iconScaleSB"
             android:persistent="true"
             android:title="@string/icon_scale_pref_title"
@@ -97,7 +97,7 @@
             app:summaryFormat="%.0f%%"
             app:summaryMultiplier="100" />
 
-        <com.zhaisoft.mylauncher.preferences.SeekbarPreference
+        <com.zhaisoft.app.mylauncher.preferences.SeekbarPreference
             android:dependency="pref_hideAppLabels"
             android:key="pref_iconTextScaleSB"
             android:persistent="true"
@@ -127,7 +127,7 @@
             android:key="pref_shortcutBlacklist"
             android:title="@string/shortcut_blacklist"
             android:summary="@string/shortcut_blacklist_sum"
-            android:fragment="com.zhaisoft.mylauncher.preferences.ShortcutBlacklistFragment" />
+            android:fragment="com.zhaisoft.app.mylauncher.preferences.ShortcutBlacklistFragment" />
 
         <SwitchPreference
             android:defaultValue="false"

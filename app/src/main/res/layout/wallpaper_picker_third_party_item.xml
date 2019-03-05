@@ -13,7 +13,7 @@
      limitations under the License.
 -->
 
-<com.zhaisoft.wallpaperpicker.CheckableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.wallpaperpicker.CheckableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="@dimen/wallpaperThumbnailWidth"
     android:layout_height="@dimen/wallpaperThumbnailHeight"
     android:focusable="true"
@@ -36,4 +36,4 @@
         android:layout_gravity="center"
         android:drawablePadding="4dp"
         android:textColor="@color/wallpaper_picker_item_label_text_color" />
-</com.zhaisoft.wallpaperpicker.CheckableFrameLayout>
+</com.zhaisoft.app.wallpaperpicker.CheckableFrameLayout>

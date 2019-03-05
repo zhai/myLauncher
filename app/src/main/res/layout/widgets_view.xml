@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.zhaisoft.mylauncher.widget.WidgetsContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.widget.WidgetsContainerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:id="@+id/widgets_view"
     android:layout_width="fill_parent"
@@ -24,7 +24,7 @@
         android:elevation="15.0dip"
         android:visibility="gone">
 
-        <com.zhaisoft.mylauncher.widget.WidgetsRecyclerView
+        <com.zhaisoft.app.mylauncher.widget.WidgetsRecyclerView
             android:id="@+id/widgets_list_view"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
@@ -40,4 +40,4 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
     </FrameLayout>
-</com.zhaisoft.mylauncher.widget.WidgetsContainerView>
+</com.zhaisoft.app.mylauncher.widget.WidgetsContainerView>

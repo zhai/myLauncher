@@ -15,7 +15,7 @@
 -->
 
 
-<com.zhaisoft.mylauncher.notification.NotificationMainView
+<com.zhaisoft.app.mylauncher.notification.NotificationMainView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -61,4 +61,4 @@
         android:layout_marginEnd="@dimen/notification_padding_end"
         android:layout_gravity="center_vertical|end" />
 
-</com.zhaisoft.mylauncher.notification.NotificationMainView>
+</com.zhaisoft.app.mylauncher.notification.NotificationMainView>

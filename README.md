@@ -5,9 +5,9 @@
 Lawnchair is a free, open source launcher aiming at bringing Pixel Launcher features to many devices. 
 Download now!
 
-<a href="https://play.google.com/store/apps/details?id=com.zhaisoft.mylauncher.plah">
+<a href="https://play.google.com/store/apps/details?id=com.zhaisoft.app.mylauncher.plah">
 <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="70" alt="Get it on Google Play"/></a>
-<a href="https://f-droid.org/packages/com.zhaisoft.mylauncher.plah/" target="_blank">
+<a href="https://f-droid.org/packages/com.zhaisoft.app.mylauncher.plah/" target="_blank">
 <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="70"/></a>
 
 ## Now what does this cost?

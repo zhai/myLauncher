@@ -1,4 +1,4 @@
-package com.zhaisoft.mylauncher.lawnfeed
+package com.zhaisoft.app.mylauncher.lawnfeed
 
 import android.content.*
 import android.content.pm.PackageManager
@@ -8,11 +8,11 @@ import android.os.Bundle
 import android.os.IBinder
 import android.os.Process
 import android.util.Log
-import com.zhaisoft.mylauncher.launcherclient.ILauncherClientProxy
-import com.zhaisoft.mylauncher.launcherclient.ILauncherClientProxyCallback
-import com.zhaisoft.mylauncher.launcherclient.LauncherClientProxyConnection
-import com.zhaisoft.mylauncher.launcherclient.WindowLayoutParams
-import com.zhaisoft.mylauncher.lawnfeed.updater.Updater
+import com.zhaisoft.app.mylauncher.launcherclient.ILauncherClientProxy
+import com.zhaisoft.app.mylauncher.launcherclient.ILauncherClientProxyCallback
+import com.zhaisoft.app.mylauncher.launcherclient.LauncherClientProxyConnection
+import com.zhaisoft.app.mylauncher.launcherclient.WindowLayoutParams
+import com.zhaisoft.app.mylauncher.lawnfeed.updater.Updater
 import com.google.android.libraries.launcherclient.ILauncherOverlay
 import com.google.android.libraries.launcherclient.ILauncherOverlayCallback
 
@@ -141,7 +141,7 @@ class ProxyImpl(val context: Context) : ILauncherClientProxy.Stub() {
     }
 
     override fun init(callback: ILauncherClientProxyCallback): Int {
-        allowed = "com.zhaisoft.mylauncher.plah" == callingPackage || "com.zhaisoft.mylauncher" == callingPackage
+        allowed = "com.zhaisoft.app.mylauncher.plah" == callingPackage || "com.zhaisoft.app.mylauncher" == callingPackage
         enforcePermission()
         proxyCallback = callback
         Updater.checkUpdate(context)

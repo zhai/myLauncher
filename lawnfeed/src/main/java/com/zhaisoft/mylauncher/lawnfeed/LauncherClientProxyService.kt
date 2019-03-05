@@ -1,4 +1,4 @@
-package com.zhaisoft.mylauncher.lawnfeed
+package com.zhaisoft.app.mylauncher.lawnfeed
 
 import android.app.Service
 import android.content.Intent

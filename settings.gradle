@@ -1,1 +1,1 @@
-include ':app', ':launcherclient', ':lawnfeed', ':hotspot'
+include ':app', ':launcherclient', ':lawnfeed'

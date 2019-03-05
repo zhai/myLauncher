@@ -12,13 +12,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.zhaisoft.mylauncher.Hotseat xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.Hotseat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
 
-    <com.zhaisoft.mylauncher.CellLayout
+    <com.zhaisoft.app.mylauncher.CellLayout
         android:id="@+id/layout"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center" />
-</com.zhaisoft.mylauncher.Hotseat>
+</com.zhaisoft.app.mylauncher.Hotseat>

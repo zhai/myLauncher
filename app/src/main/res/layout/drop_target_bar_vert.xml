@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.zhaisoft.mylauncher.DropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.DropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="@dimen/dynamic_grid_drop_target_size"
     android:orientation="vertical"
     android:layout_height="match_parent"
@@ -22,7 +22,7 @@
     android:paddingTop="@dimen/vert_drop_target_vertical_gap">
 
     <!-- Delete target -->
-    <com.zhaisoft.mylauncher.DeleteDropTarget
+    <com.zhaisoft.app.mylauncher.DeleteDropTarget
         android:layout_width="match_parent"
         android:layout_height="@dimen/dynamic_grid_drop_target_size"
         android:gravity="center"
@@ -32,7 +32,7 @@
         android:textColor="@color/drop_target_text_color" />
 
     <!-- Uninstall target -->
-    <com.zhaisoft.mylauncher.UninstallDropTarget
+    <com.zhaisoft.app.mylauncher.UninstallDropTarget
         android:layout_width="match_parent"
         android:layout_height="@dimen/dynamic_grid_drop_target_size"
         android:gravity="center"
@@ -48,7 +48,7 @@
         android:layout_weight="1" />
 
     <!-- App Info -->
-    <com.zhaisoft.mylauncher.InfoDropTarget
+    <com.zhaisoft.app.mylauncher.InfoDropTarget
         android:layout_width="match_parent"
         android:layout_height="@dimen/dynamic_grid_drop_target_size"
         android:gravity="center"
@@ -58,4 +58,4 @@
         android:textColor="@color/drop_target_text_color"
         android:layout_marginBottom="64dp" />
 
-</com.zhaisoft.mylauncher.DropTargetBar>
+</com.zhaisoft.app.mylauncher.DropTargetBar>

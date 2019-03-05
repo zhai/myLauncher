@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     
-    <com.zhaisoft.mylauncher.preferences.GoogleNowPreference
+    <com.zhaisoft.app.mylauncher.preferences.GoogleNowPreference
         android:key="pref_showGoogleNowTab"
         android:persistent="true"
         android:title="@string/show_google_now_tab_pref_title"

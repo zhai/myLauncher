@@ -7,7 +7,7 @@
     android:focusable="true"
     android:orientation="vertical">
 
-    <com.zhaisoft.mylauncher.BubbleTextView
+    <com.zhaisoft.app.mylauncher.BubbleTextView
         android:id="@+id/section"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/widget_section_height"

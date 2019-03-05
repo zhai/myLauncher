@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.zhaisoft.mylauncher.folder.Folder xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.folder.Folder xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
     android:elevation="5dp"
     android:orientation="vertical">
 
-    <com.zhaisoft.mylauncher.folder.FolderPagedView
+    <com.zhaisoft.app.mylauncher.folder.FolderPagedView
         android:id="@+id/folder_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -39,7 +39,7 @@
         android:paddingLeft="12dp"
         android:paddingRight="12dp">
 
-        <com.zhaisoft.mylauncher.ExtendedEditText
+        <com.zhaisoft.app.mylauncher.ExtendedEditText
             android:id="@+id/folder_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:textColorHint="@color/folder_name_hint_color"
             android:textSize="@dimen/folder_label_text_size" />
 
-        <com.zhaisoft.mylauncher.pageindicators.PageIndicatorDots
+        <com.zhaisoft.app.mylauncher.pageindicators.PageIndicatorDots
             android:id="@+id/folder_page_indicator"
             android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
@@ -68,4 +68,4 @@
 
     </LinearLayout>
 
-</com.zhaisoft.mylauncher.folder.Folder>
+</com.zhaisoft.app.mylauncher.folder.Folder>

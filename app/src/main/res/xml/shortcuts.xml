@@ -12,8 +12,8 @@
 
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetPackage="com.zhaisoft.mylauncher.plah"
-            android:targetClass="com.zhaisoft.mylauncher.BlankActivity" >
+            android:targetPackage="com.zhaisoft.app.mylauncher.plah"
+            android:targetClass="com.zhaisoft.app.mylauncher.BlankActivity" >
 
             <extra android:name="action" android:value="setDefaultLauncher" />
         </intent>

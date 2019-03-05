@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhaisoft.mylauncher.lawnfeed">
+    package="com.zhaisoft.app.mylauncher.lawnfeed">
 
     <!-- Let's break some rules... -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -17,14 +17,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name="com.zhaisoft.mylauncher.lawnfeed.LauncherClientProxyService"
+            android:name="com.zhaisoft.app.mylauncher.lawnfeed.LauncherClientProxyService"
             android:enabled="true"
             android:exported="true" />
 
         <!-- Required for Lawnfeed updater -->
         <receiver
-            android:name="com.zhaisoft.mylauncher.lawnfeed.receivers.UpdateReceiver" />
-        <activity android:name="com.zhaisoft.mylauncher.lawnfeed.PermissionActivity"
+            android:name="com.zhaisoft.app.mylauncher.lawnfeed.receivers.UpdateReceiver" />
+        <activity android:name="com.zhaisoft.app.mylauncher.lawnfeed.PermissionActivity"
             android:theme="@style/Theme.Transparent"
             android:autoRemoveFromRecents="true"
             android:launchMode="singleTask"
@@ -32,7 +32,7 @@
         </activity>
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.zhaisoft.mylauncher.lawnfeed.provider"
+            android:authorities="com.zhaisoft.app.mylauncher.lawnfeed.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

@@ -1,29 +1,29 @@
--keep,allowshrinking,allowoptimization class com.zhaisoft.mylauncher.** {
+-keep,allowshrinking,allowoptimization class com.zhaisoft.app.mylauncher.** {
   *;
 }
 
--keep class com.zhaisoft.mylauncher.BaseRecyclerViewFastScrollBar {
+-keep class com.zhaisoft.app.mylauncher.BaseRecyclerViewFastScrollBar {
   public void setThumbWidth(int);
   public int getThumbWidth();
   public void setTrackWidth(int);
   public int getTrackWidth();
 }
 
--keep class com.zhaisoft.mylauncher.BaseRecyclerViewFastScrollPopup {
+-keep class com.zhaisoft.app.mylauncher.BaseRecyclerViewFastScrollPopup {
   public void setAlpha(float);
   public float getAlpha();
 }
 
--keep class com.zhaisoft.mylauncher.ButtonDropTarget {
+-keep class com.zhaisoft.app.mylauncher.ButtonDropTarget {
   public int getTextColor();
 }
 
--keep class com.zhaisoft.mylauncher.CellLayout {
+-keep class com.zhaisoft.app.mylauncher.CellLayout {
   public float getBackgroundAlpha();
   public void setBackgroundAlpha(float);
 }
 
--keep class com.zhaisoft.mylauncher.CellLayout$LayoutParams {
+-keep class com.zhaisoft.app.mylauncher.CellLayout$LayoutParams {
   public void setWidth(int);
   public int getWidth();
   public void setHeight(int);
@@ -34,7 +34,7 @@
   public int getY();
 }
 
--keep class com.zhaisoft.mylauncher.dragndrop.DragLayer$LayoutParams {
+-keep class com.zhaisoft.app.mylauncher.dragndrop.DragLayer$LayoutParams {
   public void setWidth(int);
   public int getWidth();
   public void setHeight(int);
@@ -45,24 +45,24 @@
   public int getY();
 }
 
--keep class com.zhaisoft.mylauncher.FastBitmapDrawable {
+-keep class com.zhaisoft.app.mylauncher.FastBitmapDrawable {
   public void setDesaturation(float);
   public float getDesaturation();
   public void setBrightness(float);
   public float getBrightness();
 }
 
--keep class com.zhaisoft.mylauncher.PreloadIconDrawable {
+-keep class com.zhaisoft.app.mylauncher.PreloadIconDrawable {
   public float getAnimationProgress();
   public void setAnimationProgress(float);
 }
 
--keep class com.zhaisoft.mylauncher.pageindicators.CaretDrawable {
+-keep class com.zhaisoft.app.mylauncher.pageindicators.CaretDrawable {
   public float getCaretProgress();
   public void setCaretProgress(float);
 }
 
--keep class com.zhaisoft.mylauncher.Workspace {
+-keep class com.zhaisoft.app.mylauncher.Workspace {
   public float getBackgroundAlpha();
   public void setBackgroundAlpha(float);
 }
@@ -78,20 +78,20 @@
 -dontwarn javax.**
 -dontwarn org.codehaus.mojo.animal_sniffer.**
 
--keep class com.zhaisoft.mylauncher.DeferredHandler {
+-keep class com.zhaisoft.app.mylauncher.DeferredHandler {
  *;
 }
 
 # Proguard will strip new callbacks in LauncherApps.Callback from
 # WrappedCallback if compiled against an older SDK. Don't let this happen.
--keep class com.zhaisoft.mylauncher.compat.** {
+-keep class com.zhaisoft.app.mylauncher.compat.** {
   *;
 }
 
--keep class com.zhaisoft.mylauncher.preferences.HiddenAppsFragment {
+-keep class com.zhaisoft.app.mylauncher.preferences.HiddenAppsFragment {
   *;
 }
 
--keep class com.zhaisoft.mylauncher.preferences.ShortcutBlacklistFragment {
+-keep class com.zhaisoft.app.mylauncher.preferences.ShortcutBlacklistFragment {
   *;
 }

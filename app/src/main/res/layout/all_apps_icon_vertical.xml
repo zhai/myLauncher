@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.zhaisoft.mylauncher.allapps.AllAppsIconRowView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhaisoft.app.mylauncher.allapps.AllAppsIconRowView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/all_apps_vertical_row_height"
@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/all_apps_vertical_row_padding"
     android:paddingRight="@dimen/all_apps_vertical_row_padding">
 
-    <com.zhaisoft.mylauncher.BubbleTextView
+    <com.zhaisoft.app.mylauncher.BubbleTextView
         android:id="@android:id/icon"
         android:layout_width="@dimen/all_apps_vertical_icon_size"
         android:layout_height="@dimen/all_apps_vertical_icon_size"
@@ -29,4 +29,4 @@
         android:textColor="?android:textColorPrimary"
         android:textSize="18.0sp" />
 
-</com.zhaisoft.mylauncher.allapps.AllAppsIconRowView>
+</com.zhaisoft.app.mylauncher.allapps.AllAppsIconRowView>

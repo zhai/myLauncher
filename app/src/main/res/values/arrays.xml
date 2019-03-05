@@ -14,8 +14,8 @@
 
     <string-array name="dt2sHandlerClasses">
         <item></item>
-        <item>com.zhaisoft.mylauncher.gestures.dt2s.DoubleTapGesture$SleepGestureHandlerDeviceAdmin</item>
-        <item>com.zhaisoft.mylauncher.gestures.dt2s.DoubleTapGesture$SleepGestureHandlerTimeout</item>
-        <item>com.zhaisoft.mylauncher.gestures.dt2s.DoubleTapGesture$SleepGestureHandlerRoot</item>
+        <item>com.zhaisoft.app.mylauncher.gestures.dt2s.DoubleTapGesture$SleepGestureHandlerDeviceAdmin</item>
+        <item>com.zhaisoft.app.mylauncher.gestures.dt2s.DoubleTapGesture$SleepGestureHandlerTimeout</item>
+        <item>com.zhaisoft.app.mylauncher.gestures.dt2s.DoubleTapGesture$SleepGestureHandlerRoot</item>
     </string-array>
 </resources>
