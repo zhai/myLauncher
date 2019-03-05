@@ -48,8 +48,9 @@
 
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>"
-    <!-- 设置允许改变配置信息的权�?-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
@@ -101,9 +102,6 @@
                 android:name="android.app.shortcuts"
                 android:resource="@xml/shortcuts" />
         </activity>
-
-
-
 
 
         <activity
@@ -288,9 +286,9 @@
         </receiver>
 
 
-
-
-        <receiver android:name="com.zhaisoft.app.mylauncher.RecyclerWidgetProvider" android:label="测试widget">
+        <receiver
+            android:name="com.zhaisoft.app.mylauncher.RecyclerWidgetProvider"
+            android:label="测试widget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -298,7 +296,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
-
 
 
     </application>
